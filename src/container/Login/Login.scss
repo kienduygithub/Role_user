@@ -1,0 +1,60 @@
+$backround: #f0f2f5;
+$bluefb   : #1877f2;
+
+.login-container {
+    background-color: $backround;
+    min-height      : 100vh;
+
+    .content-left {
+        .brand {
+            font-weight: bold;
+            color      : $bluefb;
+            font-size  : 2rem;
+        }
+
+        .detail {
+            font-size    : 1.3rem;
+            margin-bottom: 36px;
+        }
+    }
+
+    .content-right {
+        background-color: white;
+        border          : 1px solid rgba(0, 0, 0, 0.16);
+        border-radius   : 8px;
+        box-shadow      : rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+            rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        span.forgot-password {
+            cursor   : pointer;
+            font-size: .85rem;
+            color    : $bluefb;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:active {
+                transform: scale(0.98);
+            }
+        }
+
+        span.mobile-brand {
+            font-weight: bold;
+            color      : $bluefb;
+            font-size  : 2rem;
+        }
+    }
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
